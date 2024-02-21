@@ -1,0 +1,79 @@
+<html>
+<head>
+<style>
+/* Add a black to white gradient background to the navigation bar */
+nav {
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  background: linear-gradient(to right, black, white);
+}
+
+/* Style the logo image */
+nav img {
+  width: 100px;
+  height: 50px;
+  margin-left: 10px;
+}
+
+/* Style the navigation links */
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  padding: 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+/* Change the link color on hover */
+nav a:hover {
+  color: pink;
+}
+
+/* Style the search bar */
+nav input {
+  margin-left: auto;
+  margin-right: 10px;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  width: 300px;
+}
+
+/* Style the icons */
+nav i {
+  margin-right: 10px;
+  color: black;
+  font-size: 25px;
+}
+</style>
+</head>
+<body>
+<nav>
+  <img src="logo.png" alt="Logo"> <!-- Replace logo.png with your logo image -->
+  <ul>
+    <li><a href="#">MEN</a></li>
+    <li><a href="#">WOMEN</a></li>
+    <li><a href="#">KIDS</a></li>
+    <li><a href="#">HOME & LIVING</a></li>
+    <li><a href="#">BEAUTY</a></li>
+    <li><a href="#">STUDIO <sup>NEW</sup > </a></li>
+    
+  </ul>
+  <input type="text" placeholder="Search for products, brands and more">
+  <i class="fas fa-user"></i> <!-- Replace with your profile icon -->
+  <i class="fas fa-heart"></i> <!-- Replace with your wishlist icon -->
+  <i class="fas fa-shopping-bag"></i> <!-- Replace with your bag icon -->
+</nav>
+</body>
+</html>
